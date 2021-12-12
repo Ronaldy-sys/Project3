@@ -1,0 +1,29 @@
+.button{
+    padding: 20px;
+    margin: 0;
+    color:black;
+    width: 90%;
+    background-color: white;
+}
+#topside{
+    background-color:lightgrey;
+}
+.calc{
+    width: 100%;
+}
+.results{
+    padding: 10px;
+    width: 100%;
+}
+#equal{
+    height: 425%;
+    background-color: rgb(90, 90, 226);
+}
+.wholecalc{
+    box-sizing: content-box;
+    width: 30%;
+    border: solid;
+    border-color: lightgrey;
+    display: inline-block;
+}
+

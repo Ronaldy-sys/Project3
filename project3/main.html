@@ -1,0 +1,41 @@
+<html>
+    <head>
+    <title> Project 3 Calculator</title>
+    <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+    <div class = "wholecalc">
+    <input class = "results" type = "text" id = "answer" readonly>
+    <table class = "calc">
+    <tr>
+        <td><input class = "button" id = "topside" type = "button" value = "+" onclick = "add('+')"> </td>
+        <td><input class = "button" id = "topside" type = "button" value = "-" onclick = "add('-')"> </td>
+        <td><input class = "button" id = "topside" type = "button" value = "x" onclick = "add('*')"> </td>
+        <td><input class = "button" id = "topside" type = "button" value = "÷" onclick = "add('/')"> </td>
+    </tr>
+    <tr>
+        <td><input class = "button" type = "button" value = "7" onclick = "add('7')"> </td>
+        <td><input class = "button" type = "button" value = "8" onclick = "add('8')"> </td>
+        <td><input class = "button" type = "button" value = "9" onclick = "add('9')"> </td>
+        <td style = "height: 200%;"><input class = "button" type = "button" id = "equal" value = "=" onclick = "Answer()"> </td>
+    </tr>
+    <tr>
+        <td><input class = "button" type = "button" value = "4" onclick = "add('4')"> </td>
+        <td><input class = "button" type = "button" value = "5" onclick = "add('5')"> </td>
+        <td><input class = "button" type = "button" value = "6" onclick = "add('6')"> </td>
+    </tr>
+    <tr>
+        <td><input class = "button" type = "button" value = "1" onclick = "add('1')"> </td>
+        <td><input class = "button" type = "button" value = "2" onclick = "add('2')"> </td>
+        <td><input class = "button" type = "button" value = "3" onclick = "add('3')"> </td>
+    </tr>
+    <tr>
+        <td><input class = "button" type = "button" value = "0" onclick = "add('0')"> </td>
+        <td><input class = "button" type = "button" value = "." onclick = "add('.')"> </td>
+        <td><input class = "button" type = "button" value = "C" onclick = "Clear()"> </td>
+    </tr>
+        </table>
+        </div>
+    </body>
+    <script src = "scripts.js"></script>
+</html>
